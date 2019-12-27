@@ -31,21 +31,16 @@
             width: 100%;
         }
     </style>
-	<script>
-		(function() {
-			document.form-l10n.q.focus();
-		})();
-	</script>
 </head>
 <body>
     <div class="outer">
       <div class="middle">
         <div class="inner">
             <h1>No l10n g search form</h1>
-            <form method="GET" name="form-l10n" action="https://www.google.com/search">
+            <form method="GET" name="forml10n" action="https://www.google.com/search">
                 <input type="hidden" name="hl" value="en" />
                 <input type="hidden" name="gl" value="en" />
-                <input id="input0" type="text" name="q" value="" placeholder="phrase"/>
+                <input id="input0" type="text" name="q" value="" placeholder="phrase" autofocus />
                 <br /><br />
                 <input id="input1" type="submit" name="btnK" value="search">
             </form>
